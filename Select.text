@@ -1,0 +1,28 @@
+--a)
+SELECT  * FROM Impiegato 
+where Eta>29
+--b)
+SELECT  * FROM Impiegato 
+where RedditoMensile>=800
+--c)
+SELECT  * FROM Impiegato 
+where DetrazioneFiscale='true'
+--d)
+SELECT  * FROM Impiegato 
+where DetrazioneFiscale='false'
+--e)
+SELECT  * FROM Impiegato 
+WHERE Cognome LIKE 'G%'
+order by Cognome ASC
+--f)
+SELECT COUNT(*)FROM Impiegato
+--g)
+SELECT SUM(RedditoMensile) FROM Impiegato
+--h)
+SELECT AVG(RedditoMensile) FROM Impiegato
+--i)
+SELECT MAX(RedditoMensile) FROM Impiegato
+--j)
+SELECT MIN(RedditoMensile) FROM Impiegato
+--m)
+SELECT AVG(Eta) FROM Impiegato
